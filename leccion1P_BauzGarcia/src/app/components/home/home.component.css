@@ -1,0 +1,46 @@
+header{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contenedor___cabecera{
+    background-image:linear-gradient(
+        rgba(25, 236, 194, 0.5),
+        rgba(0, 0, 0, 0.5)
+      );
+      text-align: center;
+      text-transform: uppercase;
+      color:#fff;
+      padding: 25px;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    height: 150px;
+  }
+  .contenedor img {
+    
+    max-height: 100%;
+  }
+  
+.contenedor___principal{
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;     
+    font-size: 25px;
+}
+.contenedor___principal h1{
+    border-bottom: 1px solid #000000;
+    font-weight: bold;  
+    text-transform: uppercase;  
+    font-size: 35px;     
+    text-align: center;  
+}
+.contenedor___principal p{
+    padding: 20px;    
+    text-align: justify;
+}
+
